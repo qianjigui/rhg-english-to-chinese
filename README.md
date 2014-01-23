@@ -3,7 +3,8 @@
 本库准备针对英文版<Ruby Hacking Guide>进行再次的中文翻译.
 
 英文版本来自 [github](https://github.com/ruby-hacking-guide/ruby-hacking-guide.github.com),
-已经存在的中文资料见:[iteye](http://thinkinginruby.group.iteye.com/group/wiki/1262-chinese-version-of-the-ruby-hacking-guide).
+已经存在的中文资料见[iteye](http://thinkinginruby.group.iteye.com/group/wiki/1262-chinese-version-of-the-ruby-hacking-guide),
+原书出处:[Rubyソースコード完全解説](http://book.douban.com/subject/3806361/).
 
 ## 翻译目的
 
@@ -32,4 +33,21 @@ Markdown
 
 ## 整体目录结构
 
-
+```bash
+.
+|-- index.md 整体引用
+|-- preface  前言
+|   `-- index.md
+|-- introduction
+|   `-- index.md
+|-- part1
+|   `-- index.md
+|-- part2
+|   `-- index.md
+|-- part3
+|   `-- index.md
+|-- part4
+|   `-- index.md
+`-- final
+    `-- index.md
+```
